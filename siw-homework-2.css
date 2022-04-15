@@ -20,7 +20,6 @@ h1 {
 #flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .flex-item-left {
@@ -62,4 +61,8 @@ h1 {
 .flex-item-right ul.outer {
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+.flex-item-right ul.outer-last {
+    margin: 0;
 }

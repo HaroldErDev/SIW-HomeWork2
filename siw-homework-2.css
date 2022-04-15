@@ -3,13 +3,18 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
-    color: rgb(0, 0, 148);
+a {
+    font-weight: bold;
+    text-decoration: none;
 }
 
-hr {
+a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+h1 {
     color: rgb(0, 0, 148);
-    width: 100%;
 }
 
 #flex-container {
@@ -38,6 +43,7 @@ hr {
     border: 1px solid rgb(0, 0, 148);
     flex-grow: 2;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
 }
 
@@ -49,10 +55,11 @@ hr {
     margin-bottom: 20px;
 }
 
-.flex-item-right p {
-    margin-bottom: 20px;
+.flex-item-right ul {
+    margin-bottom: 10px;
 }
 
-.flex-item-right ul {
-    margin: 0;
+.flex-item-right ul.outer {
+    margin-top: 0;
+    margin-bottom: 20px;
 }

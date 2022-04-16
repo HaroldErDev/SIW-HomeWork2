@@ -21,6 +21,7 @@ h1 {
 #flex-container {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .flex-item-left {
@@ -66,4 +67,31 @@ h1 {
 
 .flex-item-right ul.outer-last {
     margin: 0;
+}
+
+.unersections {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.unersections div.title {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: teal;
+    font-size: 65px;
+    color: white;
+    padding-top: 5px;
+}
+
+.unersections > b {
+    font-size: 30px;
+}
+
+.unersections ul.outer {
+    font-size: 20px;
+}
+
+.unersections ul {
+    margin-bottom: 10px;
 }

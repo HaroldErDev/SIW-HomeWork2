@@ -69,12 +69,13 @@ h1 {
     margin: 0;
 }
 
-.teaching {
+.unersections {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
-.teaching div {
+.unersections div.title {
     margin-bottom: 10px;
     text-align: center;
     background-color: teal;
@@ -83,14 +84,14 @@ h1 {
     padding-top: 5px;
 }
 
-.teaching > b {
+.unersections > b {
     font-size: 30px;
 }
 
-.teaching ul.outer {
+.unersections ul.outer {
     font-size: 20px;
 }
 
-.teaching ul {
+.unersections ul {
     margin-bottom: 10px;
 }

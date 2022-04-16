@@ -88,8 +88,13 @@ h1 {
     font-size: 30px;
 }
 
-.unersections ul.outer {
+.unersections .info {
     font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.unersections .more-info {
+    margin-top: 20px;
 }
 
 .unersections ul {

@@ -1,6 +1,7 @@
 body {
     margin: 0 50px;
     font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.305);
 }
 
 a {
@@ -69,13 +70,13 @@ h1 {
     margin: 0;
 }
 
-.unersections {
+.undersections {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
-.unersections div.title {
+.undersections div.title {
     margin-bottom: 10px;
     text-align: center;
     background-color: teal;
@@ -84,19 +85,25 @@ h1 {
     padding-top: 5px;
 }
 
-.unersections > b {
+.undersections div.background {
+    background-color: #dedede;
+    border: 1px solid rgb(0, 0, 148);
+    padding: 20px;
+}
+
+.undersections .background > b {
     font-size: 30px;
 }
 
-.unersections .info {
+.undersections .info {
     font-size: 20px;
     margin-bottom: 50px;
 }
 
-.unersections .more-info {
+.undersections .more-info {
     margin-top: 20px;
 }
 
-.unersections ul {
+.undersections ul {
     margin-bottom: 10px;
 }

@@ -33,6 +33,7 @@ h1 {
 .flex-item-left img {
     width: 330px;
     height: 330px;
+    border: 1px solid rgb(0, 0, 148);
 }
 
 .flex-item-left h1 {
